@@ -1,0 +1,29 @@
+{
+    "name": "your-github-username/camie-superapp-sdk",
+    "description": "The official PHP and Laravel SDK for the CamIE SuperApp.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "ext-openssl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CamIE\\SuperApp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CamIE\\SuperApp\\Laravel\\SuperAppServiceProvider"
+            ],
+            "aliases": {
+                "SuperApp": "CamIE\\SuperApp\\Laravel\\Facades\\SuperApp"
+            }
+        }
+    }
+}
