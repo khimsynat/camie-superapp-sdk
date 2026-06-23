@@ -1,5 +1,5 @@
 {
-    "name": "your-github-username/camie-superapp-sdk",
+    "name": "debc-camie/camie-superapp-sdk",
     "description": "The official PHP and Laravel SDK for the CamIE SuperApp.",
     "type": "library",
     "license": "MIT",
